@@ -1,0 +1,23 @@
+lastupdatecheck: 0
+recentrepos:
+- /home/ayu/.config
+- /home/ayu/.local/share/lunarvim/lvim
+- /home/ayu/.config/fish
+- /home/ayu/.config/nvim
+- /home/ayu/Code/python
+- /home/ayu/.config/lvim
+- /home/ayu/lunarv/LunarVim
+- /home/ayu/.config/ranger
+- /home/ayu/Code/repoes
+- /home/ayu/.config/awesome
+- /home/ayu/.local/share/lunarvim/site/pack/packer/start/nvim-base16
+- /home/ayu/.local/share/lunarvim
+- /home/ayu/Pictures/wall1/wallpapers
+- /home/ayu/Downloads
+startuppopupversion: 5
+customcommandshistory:
+- git restore .
+- q
+- git get-url origin
+- git remote get-url origin
+hidecommandlog: false
