@@ -147,6 +147,7 @@ lvim.plugins = {
   { "folke/trouble.nvim" },
   { 'karb94/neoscroll.nvim' },
   { 'kdheepak/lazygit.nvim' },
+  { 'RRethy/nvim-base16' },
   { 'sbdchd/neoformat' },
   { "widatama/vim-phoenix" },
   { 'tzachar/cmp-tabnine', run = './install.sh', requires = 'hrsh7th/nvim-cmp' },
