@@ -10,7 +10,7 @@ an executable
 -- general
 lvim.log.level = "warn"
 lvim.format_on_save = false
-lvim.colorscheme = "coffee-contrast"
+lvim.colorscheme = "phoenix"
 -- to disable icons and use a minimalist setup, uncomment the following
 -- lvim.use_icons = false
 
@@ -148,9 +148,7 @@ lvim.plugins = {
   { 'karb94/neoscroll.nvim' },
   { 'kdheepak/lazygit.nvim' },
   { 'sbdchd/neoformat' },
-  { 'RRethy/nvim-base16' },
   { "widatama/vim-phoenix" },
-  { "pages-themes/hacker" },
   { 'tzachar/cmp-tabnine', run = './install.sh', requires = 'hrsh7th/nvim-cmp' },
 }
 
