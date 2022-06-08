@@ -281,6 +281,11 @@ globalkeys = gears.table.join(
 		awful.util.spawn("rofi -show drun")
 	end, { description = "runs all programs installed", group = "launcher" }),
 
+
+	awful.key({ modkey }, "n", function()
+		awful.util.spawn("goneovim")
+	end, { description = "Open neovim", group = "launcher" }),
+
 	awful.key({ modkey }, "return", function()
 		awful.spawn(terminal)
 	end, { description = "open a terminal", group = "launcher" }),
