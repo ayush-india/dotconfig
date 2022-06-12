@@ -3,7 +3,7 @@
 
 [Editor]
 ## Makes the application window frameless.
-# BorderlessWindow = false
+BorderlessWindow = true
 
 ## Editor minimum window width (>= 400)
 # Width = 800

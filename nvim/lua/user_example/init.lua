@@ -50,7 +50,7 @@ local config = {
 
   -- Disable AstroNvim ui features
   ui = {
-    nui_input = true,
+    nui_input = false,
     telescope_select = true,
   },
 
