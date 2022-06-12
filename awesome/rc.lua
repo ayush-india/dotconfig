@@ -525,9 +525,9 @@ awful.rules.rules = {
 	-- Remove titlebars to normal clients and dialogs
 	{ rule_any = { type = { "normal", "dialog" } }, properties = { titlebars_enabled = false } },
 
-	{ rule = { class = "Thunderbird" }, properties = { screen = 1, tag = "8" } },
-	{ rule = { class = "discord" }, properties = { screen = 1, tag = "9" } },
-	{ rule = { class = "mpv" }, properties = { screen = 1, fullscreen = true } },
+	-- { rule = { class = "Thunderbird" }, properties = { screen = 1, tag = "8" } },
+	-- { rule = { class = "discord" }, properties = { screen = 0, tag = "9" } },
+	-- { rule = { class = "mpv" }, properties = { screen = 1, fullscreen = true } },
 }
 -- }}}
 
@@ -592,5 +592,5 @@ end)
 -- }}}
 
 awful.spawn.with_shell("compton")
-awful.spawn.with_shell("vlc")
+-- awful.spawn.with_shell("vlc")
 awful.spawn.with_shell("nitrogen --set-zoom-fill --restore")
